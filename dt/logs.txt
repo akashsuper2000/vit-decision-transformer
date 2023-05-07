@@ -1,0 +1,263 @@
+Breakout
+
+CNN
+(base) gakash@AIbright91:~$ tail -f akash_test_err_2.txt
+WARNING:absl:Unable to find episode_end_indices. This is expected for old checkpoints.
+WARNING:absl:Unable to find episode_end_indices. This is expected for old checkpoints.
+WARNING:absl:Unable to find episode_end_indices. This is expected for old checkpoints.
+WARNING:absl:Unable to find episode_end_indices. This is expected for old checkpoints.
+WARNING:absl:Unable to find episode_end_indices. This is expected for old checkpoints.
+epoch 1 iter 3986: train loss 0.79798. lr 5.598514e-04: 100%|██████████| 3987/3987 [41:35<00:00,  1.60it/s]
+epoch 2 iter 3986: train loss 0.72557. lr 4.500607e-04: 100%|██████████| 3987/3987 [40:17<00:00,  1.65it/s]
+epoch 3 iter 3986: train loss 0.63105. lr 3.000525e-04: 100%|██████████| 3987/3987 [37:11<00:00,  1.79it/s]
+epoch 4 iter 3986: train loss 0.51509. lr 1.500303e-04: 100%|██████████| 3987/3987 [40:15<00:00,  1.65it/s]
+epoch 5 iter 3986: train loss 0.49231. lr 6.000000e-05: 100%|██████████| 3987/3987 [40:19<00:00,  1.65it/s]
+
+(base) gakash@AIbright91:~$ tail -f akash_test_out_2.txt
+Time taken for epoch 1: 2496.139106988907
+target return: 90, eval return: 47
+Time taken for epoch 2: 2418.4788541793823
+target return: 90, eval return: 34
+Time taken for epoch 3: 2232.3180084228516
+target return: 90, eval return: 27
+Time taken for epoch 4: 2416.147955417633
+target return: 90, eval return: 45
+Time taken for epoch 5: 2420.2403786182404
+target return: 90, eval return: 37
+
+
+ViT
+(base) gakash@AIbright91:~$ tail -f akash_test_out.txt
+epoch 1 iter 7972: train loss 0.92817. lr 5.598514e-04: 100%|██████████| 7973/7973 [1:28:41<00:00,  1.50it/s]
+epoch 2 iter 7972: train loss 0.90808. lr 4.500607e-04: 100%|██████████| 7973/7973 [1:28:15<00:00,  1.51it/s]
+epoch 3 iter 7972: train loss 0.89691. lr 3.000525e-04: 100%|██████████| 7973/7973 [1:28:11<00:00,  1.51it/s]
+epoch 4 iter 7972: train loss 0.83467. lr 1.500303e-04: 100%|██████████| 7973/7973 [1:28:09<00:00,  1.51it/s]
+epoch 5 iter 7972: train loss 0.81180. lr 6.000000e-05: 100%|██████████| 7973/7973 [1:28:37<00:00,  1.50it/s]
+epoch 6 iter 7972: train loss 0.87324. lr 5.598514e-04: 100%|██████████| 7973/7973 [1:28:36<00:00,  1.50it/s]
+epoch 7 iter 7972: train loss 0.82669. lr 4.500607e-04: 100%|██████████| 7973/7973 [1:28:15<00:00,  1.51it/s]
+epoch 8 iter 7972: train loss 0.83182. lr 3.000525e-04: 100%|██████████| 7973/7973 [1:27:58<00:00,  1.51it/s]
+epoch 9 iter 7972: train loss 0.79828. lr 1.500303e-04: 100%|██████████| 7973/7973 [1:28:16<00:00,  1.51it/s]
+epoch 10 iter 7972: train loss 0.74208. lr 6.000000e-05: 100%|██████████| 7973/7973 [1:28:41<00:00,  1.50it/s]
+epoch 11 iter 7972: train loss 0.68051. lr 6.000000e-05: 100%|██████████| 7973/7973 [1:29:21<00:00,  1.49it/s]
+epoch 12 iter 7972: train loss 0.69203. lr 6.000000e-05: 100%|██████████| 7973/7973 [1:29:29<00:00,  1.48it/s]
+epoch 13 iter 7972: train loss 0.70850. lr 1.500303e-04: 100%|██████████| 7973/7973 [1:29:22<00:00,  1.49it/s]
+epoch 14 iter 7972: train loss 0.72718. lr 3.000525e-04: 100%|██████████| 7973/7973 [1:29:22<00:00,  1.49it/s]
+epoch 15 iter 7972: train loss 0.68198. lr 4.500607e-04: 100%|██████████| 7973/7973 [1:29:30<00:00,  1.48it/s]
+
+(base) gakash@AIbright91:~$ tail -f akash_test_out.txt
+Time taken for epoch 1: 5322.145740270615
+target return: 90, eval return: 2
+Time taken for epoch 2: 5295.691935539246
+target return: 90, eval return: 1
+Time taken for epoch 3: 5291.972833156586
+target return: 90, eval return: 12
+Time taken for epoch 4: 5289.789341449738
+target return: 90, eval return: 21
+Time taken for epoch 5: 5318.615182161331
+target return: 90, eval return: 33
+Time taken for epoch 6: 5317.690408229828
+target return: 90, eval return: 11
+Time taken for epoch 7: 5296.264416217804
+target return: 90, eval return: 25
+Time taken for epoch 8: 5279.427093267441
+target return: 90, eval return: 27
+Time taken for epoch 9: 5297.220067977905
+target return: 90, eval return: 56
+Time taken for epoch 10: 5322.0448496341705
+target return: 90, eval return: 59
+Time taken for epoch 11: 5362.066643714905
+target return: 90, eval return: 44
+Time taken for epoch 12: 5370.172565937042
+target return: 90, eval return: 54
+Time taken for epoch 13: 5363.0013422966
+target return: 90, eval return: 43
+Time taken for epoch 14: 5362.931754827499
+target return: 90, eval return: 31
+Time taken for epoch 15: 5371.707093477249
+target return: 90, eval return: 36
+
+
+
+
+Seaquest
+
+CNN
+(base) gakash@AIbright91:~$ tail -f akash_test_err.txt
+epoch 1 iter 3926: train loss 1.49695. lr 5.598521e-04: 100%|██████████| 3927/3927 [43:29<00:00,  1.50it/s]
+epoch 2 iter 3926: train loss 1.31727. lr 4.500616e-04: 100%|██████████| 3927/3927 [36:24<00:00,  1.80it/s]
+epoch 3 iter 3926: train loss 1.25639. lr 3.000533e-04: 100%|██████████| 3927/3927 [36:32<00:00,  1.79it/s]
+epoch 4 iter 3926: train loss 1.08733. lr 1.500308e-04: 100%|██████████| 3927/3927 [36:31<00:00,  1.79it/s]
+epoch 5 iter 3926: train loss 1.19009. lr 6.000000e-05: 100%|██████████| 3927/3927 [34:47<00:00,  1.88it/s]
+epoch 6 iter 3926: train loss 0.90759. lr 6.000000e-05: 100%|██████████| 3927/3927 [36:39<00:00,  1.79it/s]
+epoch 7 iter 3926: train loss 1.01334. lr 6.000000e-05: 100%|██████████| 3927/3927 [36:39<00:00,  1.79it/s]
+epoch 8 iter 3926: train loss 1.05877. lr 1.500308e-04: 100%|██████████| 3927/3927 [36:35<00:00,  1.79it/s]
+epoch 9 iter 3926: train loss 1.01217. lr 3.000533e-04: 100%|██████████| 3927/3927 [36:35<00:00,  1.79it/s]
+epoch 10 iter 3926: train loss 1.04152. lr 4.500616e-04: 100%|██████████| 3927/3927 [36:31<00:00,  1.79it/s]
+
+
+(base) gakash@AIbright91:~$ tail -f akash_test_out.txt
+Time taken for epoch 1: 2610.5847404003143
+target return: 1150, eval return: 818
+Time taken for epoch 2: 2185.6434240341187
+target return: 1150, eval return: 1054
+Time taken for epoch 3: 2193.900131702423
+target return: 1150, eval return: 804
+Time taken for epoch 4: 2192.484261035919
+target return: 1150, eval return: 924
+Time taken for epoch 5: 2087.976971387863
+target return: 1150, eval return: 982
+Time taken for epoch 6: 2200.316065788269
+target return: 1150, eval return: 1088
+Time taken for epoch 7: 2200.0311572551727
+target return: 1150, eval return: 812
+Time taken for epoch 8: 2196.664286851883
+target return: 1150, eval return: 854
+Time taken for epoch 9: 2196.512768983841
+target return: 1150, eval return: 980
+Time taken for epoch 10: 2192.713891506195
+target return: 1150, eval return: 714
+
+
+ViT
+(base) gakash@AIbright91:~$ tail -f akash_test_err_2.txt
+epoch 1 iter 7852: train loss 1.63971. lr 5.598521e-04: 100%|██████████| 7853/7853 [1:27:49<00:00,  1.49it/s]
+epoch 2 iter 7852: train loss 1.30701. lr 4.500616e-04: 100%|██████████| 7853/7853 [1:28:00<00:00,  1.49it/s]
+epoch 3 iter 7852: train loss 1.11636. lr 3.000533e-04: 100%|██████████| 7853/7853 [1:27:52<00:00,  1.49it/s]
+epoch 4 iter 7852: train loss 0.94574. lr 1.500308e-04: 100%|██████████| 7853/7853 [1:28:07<00:00,  1.49it/s]
+epoch 5 iter 7852: train loss 0.79231. lr 6.000000e-05: 100%|██████████| 7853/7853 [1:28:10<00:00,  1.48it/s]
+epoch 6 iter 7852: train loss 0.69342. lr 6.000000e-05: 100%|██████████| 7853/7853 [1:28:08<00:00,  1.48it/s]
+epoch 7 iter 7852: train loss 0.69770. lr 6.000000e-05: 100%|██████████| 7853/7853 [1:28:08<00:00,  1.49it/s]
+epoch 8 iter 7852: train loss 0.69075. lr 1.500308e-04: 100%|██████████| 7853/7853 [1:28:09<00:00,  1.48it/s]
+epoch 9 iter 7852: train loss 0.78785. lr 3.000533e-04: 100%|██████████| 7853/7853 [1:28:10<00:00,  1.48it/s]
+epoch 10 iter 7852: train loss 0.75826. lr 4.500616e-04: 100%|██████████| 7853/7853 [1:28:10<00:00,  1.48it/s]
+epoch 11 iter 7852: train loss 0.72713. lr 5.598521e-04: 100%|██████████| 7853/7853 [1:28:11<00:00,  1.48it/s]
+epoch 12 iter 7852: train loss 0.72122. lr 6.000000e-04: 100%|██████████| 7853/7853 [1:28:12<00:00,  1.48it/s]
+epoch 13 iter 7852: train loss 0.55882. lr 5.597454e-04: 100%|██████████| 7853/7853 [1:28:10<00:00,  1.48it/s]
+epoch 14 iter 7852: train loss 0.52672. lr 4.498768e-04: 100%|██████████| 7853/7853 [1:28:09<00:00,  1.48it/s]
+epoch 15 iter 7852: train loss 0.38751. lr 2.998400e-04: 100%|██████████| 7853/7853 [1:28:11<00:00,  1.48it/s]
+
+
+(base) gakash@AIbright91:~$ tail -f akash_test_out_2.txt
+Time taken for epoch 1: 5270.654107809067
+target return: 1150, eval return: 554
+Time taken for epoch 2: 5281.717347860336
+target return: 1150, eval return: 936
+Time taken for epoch 3: 5273.7294018268585
+target return: 1150, eval return: 1166
+Time taken for epoch 4: 5287.96156835556
+target return: 1150, eval return: 896
+Time taken for epoch 5: 5291.579275608063
+target return: 1150, eval return: 888
+Time taken for epoch 6: 5289.686337471008
+target return: 1150, eval return: 860
+Time taken for epoch 7: 5289.0026688575745
+target return: 1150, eval return: 802
+Time taken for epoch 8: 5290.645490169525
+target return: 1150, eval return: 634
+Time taken for epoch 9: 5291.73686337471
+target return: 1150, eval return: 840
+Time taken for epoch 10: 5291.641667127609
+target return: 1150, eval return: 506
+Time taken for epoch 11: 5292.764842271805
+target return: 1150, eval return: 556
+Time taken for epoch 12: 5293.23948597908
+target return: 1150, eval return: 556
+Time taken for epoch 13: 5291.340950012207
+target return: 1150, eval return: 570
+Time taken for epoch 14: 5290.559796094894
+target return: 1150, eval return: 570
+Time taken for epoch 15: 5292.808945178986
+target return: 1150, eval return: 662
+
+
+
+
+Qbert
+
+CNN
+(base) gakash@AIbright91:~$ tail -f akash_test_err_4.txt
+epoch 1 iter 3910: train loss 0.83912. lr 5.598522e-04: 100%|██████████| 3911/3911 [41:01<00:00,  1.59it/s]
+epoch 2 iter 3910: train loss 0.78161. lr 4.500618e-04: 100%|██████████| 3911/3911 [36:04<00:00,  1.81it/s]
+epoch 3 iter 3910: train loss 0.69200. lr 3.000536e-04: 100%|██████████| 3911/3911 [34:18<00:00,  1.90it/s]
+epoch 4 iter 3910: train loss 0.62820. lr 1.500309e-04: 100%|██████████| 3911/3911 [36:06<00:00,  1.80it/s]
+epoch 5 iter 3910: train loss 0.62488. lr 6.000000e-05: 100%|██████████| 3911/3911 [34:29<00:00,  1.89it/s]
+epoch 6 iter 3910: train loss 0.61926. lr 6.000000e-05: 100%|██████████| 3911/3911 [36:09<00:00,  1.80it/s]
+epoch 7 iter 3910: train loss 0.57975. lr 6.000000e-05: 100%|██████████| 3911/3911 [34:25<00:00,  1.89it/s]
+epoch 8 iter 3910: train loss 0.56632. lr 1.500309e-04: 100%|██████████| 3911/3911 [34:27<00:00,  1.89it/s]
+epoch 9 iter 3910: train loss 0.62631. lr 3.000536e-04: 100%|██████████| 3911/3911 [36:03<00:00,  1.81it/s]
+epoch 10 iter 3910: train loss 0.61677. lr 4.500618e-04: 100%|██████████| 3911/3911 [34:28<00:00,  1.89it/s]
+
+
+(base) gakash@AIbright91:~$ tail -f akash_test_out_4.txt
+Time taken for epoch 1: 2461.925150871277
+target return: 14000, eval return: 2595
+Time taken for epoch 2: 2165.342644929886
+target return: 14000, eval return: 2305
+Time taken for epoch 3: 2059.0662128925323
+target return: 14000, eval return: 950
+Time taken for epoch 4: 2167.558631181717
+target return: 14000, eval return: 1182
+Time taken for epoch 5: 2069.9226105213165
+target return: 14000, eval return: 1182
+Time taken for epoch 6: 2170.4378736019135
+target return: 14000, eval return: 862
+Time taken for epoch 7: 2066.4848127365112
+target return: 14000, eval return: 505
+Time taken for epoch 8: 2068.236387014389
+target return: 14000, eval return: 812
+Time taken for epoch 9: 2164.043351173401
+target return: 14000, eval return: 777
+Time taken for epoch 10: 2069.529745578766
+target return: 14000, eval return: 1007
+
+
+ViT
+(base) gakash@AIbright91:~$ tail -f akash_test_err_3.txt
+epoch 1 iter 7820: train loss 0.94586. lr 5.598522e-04: 100%|██████████| 7821/7821 [1:25:31<00:00,  1.52it/s]
+epoch 2 iter 7820: train loss 0.98382. lr 4.500618e-04: 100%|██████████| 7821/7821 [1:25:09<00:00,  1.53it/s]
+epoch 3 iter 7820: train loss 0.88556. lr 3.000536e-04: 100%|██████████| 7821/7821 [1:25:08<00:00,  1.53it/s]
+epoch 4 iter 7820: train loss 0.86593. lr 1.500309e-04: 100%|██████████| 7821/7821 [1:25:15<00:00,  1.53it/s]
+epoch 5 iter 7820: train loss 0.86251. lr 6.000000e-05: 100%|██████████| 7821/7821 [1:25:19<00:00,  1.53it/s]
+epoch 6 iter 7820: train loss 0.79513. lr 6.000000e-05: 100%|██████████| 7821/7821 [1:25:31<00:00,  1.52it/s]
+epoch 7 iter 7820: train loss 0.72364. lr 6.000000e-05: 100%|██████████| 7821/7821 [1:25:32<00:00,  1.52it/s]
+epoch 8 iter 7820: train loss 0.83034. lr 1.500309e-04: 100%|██████████| 7821/7821 [1:25:32<00:00,  1.52it/s]
+epoch 9 iter 7820: train loss 0.76812. lr 3.000536e-04: 100%|██████████| 7821/7821 [1:25:31<00:00,  1.52it/s]
+epoch 10 iter 7820: train loss 0.80127. lr 4.500618e-04: 100%|██████████| 7821/7821 [1:25:35<00:00,  1.52it/s]
+epoch 11 iter 7820: train loss 0.92503. lr 5.598522e-04: 100%|██████████| 7821/7821 [1:25:28<00:00,  1.53it/s]
+epoch 12 iter 7820: train loss 0.82055. lr 6.000000e-04: 100%|██████████| 7821/7821 [1:25:23<00:00,  1.53it/s]
+epoch 13 iter 7820: train loss 0.75235. lr 5.597451e-04: 100%|██████████| 7821/7821 [1:25:24<00:00,  1.53it/s]
+epoch 14 iter 7820: train loss 0.71921. lr 4.498763e-04: 100%|██████████| 7821/7821 [1:25:21<00:00,  1.53it/s]
+epoch 15 iter 7820: train loss 0.65205. lr 2.998393e-04: 100%|██████████| 7821/7821 [1:25:14<00:00,  1.53it/s]
+
+
+(base) gakash@AIbright91:~$ tail -f akash_test_out_3.txt
+Time taken for epoch 1: 5132.302698612213
+target return: 14000, eval return: 1250
+Time taken for epoch 2: 5109.933593988419
+target return: 14000, eval return: 1282
+Time taken for epoch 3: 5109.507559537888
+target return: 14000, eval return: 3505
+Time taken for epoch 4: 5115.842262506485
+target return: 14000, eval return: 2062
+Time taken for epoch 5: 5119.919835805893
+target return: 14000, eval return: 4855
+Time taken for epoch 6: 5132.5821080207825
+target return: 14000, eval return: 4517
+Time taken for epoch 7: 5132.825006246567
+target return: 14000, eval return: 3327
+Time taken for epoch 8: 5133.310232639313
+target return: 14000, eval return: 2177
+Time taken for epoch 9: 5132.491788625717
+target return: 14000, eval return: 4650
+Time taken for epoch 10: 5136.7990000247955
+target return: 14000, eval return: 1335
+Time taken for epoch 11: 5129.044854879379
+target return: 14000, eval return: 4682
+Time taken for epoch 12: 5124.2464389801025
+target return: 14000, eval return: 2687
+Time taken for epoch 13: 5124.920452833176
+target return: 14000, eval return: 3205
+Time taken for epoch 14: 5121.849755525589
+target return: 14000, eval return: 5277
+Time taken for epoch 15: 5114.814468383789
+target return: 14000, eval return: 6462
